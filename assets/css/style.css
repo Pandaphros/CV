@@ -35,8 +35,8 @@ section {
     align-items: center;
     height: 100%;
   }
-  .profexp {
-
+  .textcolorwhite {
+color: white;
   }
   .profexptitulo {
     text-align: center; 
@@ -47,9 +47,15 @@ section {
         margin-left: 10%;
         margin-right: 10%;
   }
+  .habtitulo {
+    text-align: center; 
+    margin-top: 25px;
+    margin-bottom: 15px;
+  }
   .skills {
-    width: auto;
+    width: 100%;
     display: flex;
+    gap:2px;
 
   }
   .habduras {
@@ -58,4 +64,23 @@ section {
   }
   .habblandas {
 width: 50%;
+  }
+  .contacttitulo {
+    text-align: center; 
+    margin-top: 25px;
+    margin-bottom: 15px;
+  }
+  .ptitulo{
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    width: 80%;
+    margin-left: 10%;
+  }
+  .contactform {
+    width: 80%;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10%;
   }
