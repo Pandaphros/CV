@@ -40,10 +40,22 @@ section {
   }
   .profexptitulo {
     text-align: center; 
-    margin-top: 8px;
+    margin-top: 25px;
   }
   .expdespl {
         width: 80%;
         margin-left: 10%;
         margin-right: 10%;
+  }
+  .skills {
+    width: auto;
+    display: flex;
+
+  }
+  .habduras {
+    width: 50%;
+
+  }
+  .habblandas {
+width: 50%;
   }
