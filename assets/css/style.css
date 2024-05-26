@@ -2,6 +2,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: Roboto, Arial, Helvetica, sans-serif;
 }
 
 .navbar {
@@ -18,14 +19,18 @@ section {
   width: 100%;
   height: auto;
   display: block;
-  object-fit: cover; /* or contain, depending on your needs */
+  object-fit: cover;
 }
 
+.nombre{
+  font-size: 2.5rem;
+  font-weight: 900;
+}
 .overlay-text {
   position: absolute;
   top: 0;
   right: 0;
-  width: 40%; /* adjust this value to fit your layout */
+  width: 40%;
   text-align: left;
   color: #fff;
   background-color: rgba(0, 0, 0, 0.5);
@@ -41,6 +46,8 @@ section {
 .profexptitulo {
   text-align: center;
   margin-top: 25px;
+  font-size: 2.5rem;
+  font-weight: 900;
 }
 .expdespl {
   width: 80%;
@@ -51,6 +58,8 @@ section {
   text-align: center;
   margin-top: 25px;
   margin-bottom: 15px;
+  font-size: 2.5rem;
+  font-weight: 900;
 }
 .skills {
   width: 100%;
@@ -59,9 +68,21 @@ section {
 }
 .habduras {
   width: 50%;
+  font-size: 1.5rem;
+  font-weight: 700;
+
+}
+.hab_title {
+  font-size: 2rem;
+  font-weight: 900;
+  background-color: rgba(201, 195, 195, 0.519);
+  border-radius: 30px;
 }
 .habblandas {
   width: 50%;
+  font-size: 1.5rem;
+  font-weight: 700;
+
 }
 .contacttitulo {
   text-align: center;
