@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -20,7 +20,7 @@
     <section class="navbar">
       <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">Navbar</a>
+          <a class="navbar-brand" href="#">Curriculum Andrés Clunes</a>
           <button
             class="navbar-toggler"
             type="button"
@@ -37,9 +37,6 @@
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="#">Home</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
-              </li>
               <li class="nav-item dropdown">
                 <a
                   class="nav-link dropdown-toggle"
@@ -48,25 +45,25 @@
                   data-bs-toggle="dropdown"
                   aria-expanded="false"
                 >
-                  Dropdown
+                  Navegación
                 </a>
                 <ul class="dropdown-menu">
                   <li>
-                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#profexptitulo">Experiencia</a>
                   </li>
                   <li>
-                    <a class="dropdown-item" href="#">Another action</a>
+                    <a class="dropdown-item" href="#habtitulo">Habilidades</a>
                   </li>
                   <li>
                     <hr class="dropdown-divider" />
                   </li>
                   <li>
-                    <a class="dropdown-item" href="#">Something else here</a>
+                    <a class="dropdown-item" href="#contacttitle">Contáctame</a>
                   </li>
                 </ul>
               </li>
               <li class="nav-item">
-                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                <a class="nav-link active" aria-current="page" href="#">Portfolio</a>
               </li>
             </ul>
             <form class="d-flex" role="search">
@@ -76,7 +73,7 @@
                 placeholder="Search"
                 aria-label="Search"
               />
-              <button class="btn btn-outline-success" type="submit">
+              <button class="btn btn-outline-primary" type="submit">
                 Search
               </button>
             </form>
@@ -112,7 +109,7 @@
         </p>
       </div>
     </section>
-    <div class="profexptitulo">
+    <div class="profexptitulo" id="profexptitulo">
       <h2>Últimas Experiencias Profesionales</h2>
     </div>
     <div class="accordion accordion-flush expdespl" id="accordionFlushExample">
@@ -209,7 +206,7 @@
         </div>
       </div>
     </div>
-    <div class="habtitulo">
+    <div class="habtitulo" id="habtitulo">
       <h2>Habilidades y aptitudes</h2>
     </div>
     <div class="skills">
@@ -394,7 +391,7 @@
         </div>
       </div>
     </div>
-    <h2 class="contacttitulo">Contáctame</h2>
+    <h2 class="contacttitulo" id="contacttitle">Contáctame</h2>
     <p class="ptitulo">
       Si deseas discutir oportunidades laborales o simplemente compartir ideas y
       experiencias, no dudes en contactarme a través de mi dirección de correo
@@ -403,7 +400,7 @@
     <div class="contactform">
       <div class="mb-3">
         <label for="exampleFormControlInput1" class="form-label"
-          >Email address</label
+          >Email:</label
         >
         <input
           type="email"
@@ -414,7 +411,7 @@
       </div>
       <div class="mb-3">
         <label for="exampleFormControlTextarea1" class="form-label"
-          >Example textarea</label
+          >Comentarios:</label
         >
         <textarea
           class="form-control"
@@ -423,6 +420,10 @@
         ></textarea>
       </div>
     </div>
+    <div class="sendbutton">
+      <button type="button" class="btn btn-primary">Enviar</button>
+    </div>
+
     <footer class="footerclass">
       <a href="https://www.linkedin.com/in/andr%C3%A9s-clunes-barrie-035887b1/"
         ><i class="fa-brands fa-linkedin"></i

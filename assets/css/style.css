@@ -7,7 +7,7 @@
 .navbar {
   width: 100%;
   margin-top: 0;
-  background-color: #063;
+  background-color: rgb(239, 238, 236);  
 }
 
 section {
@@ -72,15 +72,20 @@ section {
   text-align: center;
   margin-top: 25px;
   margin-bottom: 15px;
-  width: 80%;
-  margin-left: 10%;
+  width: 60%;
+  margin-left: 20%;
 }
 .contactform {
-  width: 80%;
+  width: 60%;
   display: block;
   justify-content: center;
   align-items: center;
-  margin-left: 10%;
+  margin-left: 20%;
+}
+.sendbutton {
+  margin-top: 10px;
+  margin-bottom: 25px;
+  text-align: center;
 }
 .footerclass {
   height: 50px;
